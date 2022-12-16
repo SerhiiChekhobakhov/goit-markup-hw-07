@@ -15,9 +15,7 @@
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-    &.modal {
-      transition: translate(-50%, -50%) scale(0.9);
-    }
+    
   }
 }
 
@@ -38,6 +36,9 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  .is-hidden & {
+    transition: translate(-50%, -50%) scale(0.9);
+  }
 }
 
 .modal-button-close {
@@ -177,13 +178,6 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-  &:checked + .chekbox-icon {
-    background-color: var(--background-color-button);
-    background-image: url(../images/icon-check.svg);
-    background-size: contain;
-    background-origin: border-box;
-    border-color: var(--background-color-button);
-  }
 }
 
 .chekbox-icon {
@@ -193,6 +187,13 @@
   height: 15px;
   border: 2px solid #212121;
   border-radius: 4px;
+  .chekbox:checked + & {
+    background-color: var(--background-color-button);
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
+    background-origin: border-box;
+    border-color: var(--background-color-button);
+  }
 }
 
 .checkbox-text {
