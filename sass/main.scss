@@ -6,19 +6,22 @@
 @import './components/base/hidden';
 @import './components/base/common';
 
+// Стилі хедеру
+@import './components/layouts/header';
+// Герой
+@import './components/layouts/hero';
+// Стилі футеру
+@import './components/layouts/footer';
+@import './components/layouts/footer-contacts';
+@import './components/layouts/footer-input';
+
 // Компоненти
 @import './components/activities';
 @import './components/clients';
-@import './components/header';
-@import './components/hero';
 @import './components/modal';
 @import './components/peculiarities';
 @import './components/team';
 
-// Стилі футеру
-@import './components/footer';
-@import './components/footer-contacts';
-@import './components/footer-input';
 
 // Стилі Портфоліо
 @import './components/portfolio-filters';
