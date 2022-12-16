@@ -1,6 +1,6 @@
 /* Діяльність */
 
-.activities-list {
+.activities__list {
   margin: 0;
   padding: 0;
 
@@ -8,11 +8,11 @@
   gap: 30px;
 }
 
-.activities-thumb {
+.activities__thumb {
   position: relative;
 }
 
-.activities-actions {
+.activities__actions {
   display: flex;
   position: absolute;
   bottom: 0;
@@ -20,7 +20,7 @@
   transform: translate(-50%, 0);
 }
 
-.activities-title {
+.activities__title {
   margin: 0;
   padding: 27px 0;
   white-space: nowrap;
