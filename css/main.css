@@ -172,7 +172,7 @@ svg {
 }
 
 /* Контакти в навігації */
-.contacts__navigation {
+.contacts__menu {
   margin: 0;
   padding: 0;
   display: flex;
@@ -202,7 +202,7 @@ svg {
 }
 
 /* Герой */
-.hero {
+.section__hero {
   background-color: var(--background-color-hero);
   text-align: center;
   padding: 200px 0;
@@ -217,7 +217,7 @@ svg {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -233,7 +233,7 @@ svg {
 }
 
 /* Кнопка у герої */
-.request-our-service {
+.hero__button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
