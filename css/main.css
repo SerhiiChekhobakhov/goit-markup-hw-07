@@ -294,11 +294,9 @@ svg {
   margin-bottom: 0;
   padding: 0;
 }
-
 .footer-list li {
   margin-bottom: 9px;
 }
-
 .footer-list li:last-child {
   margin: 0;
 }
