@@ -1,9 +1,12 @@
+// Змінні та шрифти
 @import './utils/variables';
 
+// Базові стилі, розмітка секцій, контейнери, тощо
 @import './components/base/reset';
 @import './components/base/hidden';
 @import './components/base/common';
 
+// Компоненти
 @import './components/activities';
 @import './components/clients';
 @import './components/header';
@@ -12,13 +15,12 @@
 @import './components/peculiarities';
 @import './components/team';
 
+// Стилі футеру
 @import './components/footer';
 @import './components/footer-contacts';
 @import './components/footer-input';
 
+// Стилі Портфоліо
 @import './components/portfolio-filters';
 @import './components/portfolio-products';
-
-
-
 
