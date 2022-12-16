@@ -1,6 +1,6 @@
 /* Логотип */
 
-.logo {
+.header__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -10,32 +10,32 @@
   text-decoration: none;
 }
 
-.web-logo {
+.web__logo {
   color: var(--logo-color-blue);
 }
 
 /* Навігація */
 
-.page-header {
+.page__header {
   padding-top: 24px;
   padding-bottom: 25px;
   border: 1px solid #ececec;
 }
 
-.nav {
+.header__navigation {
   display: flex;
   align-items: center;
   gap: 93px;
 }
 
-.site-nav {
+.header__menu {
   margin: 0;
   display: flex;
   gap: 50px;
   padding: 0;
 }
 
-.nav-link {
+.header__link {
   position: relative;
   padding-bottom: 34px;
   text-decoration: none;
@@ -88,7 +88,7 @@
 
 /* Контакти в навігації */
 
-.contacts-nav {
+.contacts__navigation {
   margin: 0;
   padding: 0;
 
@@ -97,7 +97,7 @@
   gap: 50px;
 }
 
-.contacts-link {
+.contacts__link {
   text-decoration: none;
   font-weight: 500;
   line-height: 1.14;
@@ -115,7 +115,7 @@
   }
 }
 
-.icon-header {
+.header__icon {
   fill: currentColor;
   margin: 0 10px 0 0;
 }

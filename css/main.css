@@ -81,14 +81,14 @@ svg {
   width: 1200px;
   padding: 0 15px;
 }
-.container.header {
+.container.container__header {
   display: flex;
   justify-content: space-between;
   gap: 344px;
 }
 
 /* Логотип */
-.logo {
+.header__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -98,31 +98,31 @@ svg {
   text-decoration: none;
 }
 
-.web-logo {
+.web__logo {
   color: var(--logo-color-blue);
 }
 
 /* Навігація */
-.page-header {
+.page__header {
   padding-top: 24px;
   padding-bottom: 25px;
   border: 1px solid #ececec;
 }
 
-.nav {
+.header__navigation {
   display: flex;
   align-items: center;
   gap: 93px;
 }
 
-.site-nav {
+.header__menu {
   margin: 0;
   display: flex;
   gap: 50px;
   padding: 0;
 }
 
-.nav-link {
+.header__link {
   position: relative;
   padding-bottom: 34px;
   text-decoration: none;
@@ -132,10 +132,10 @@ svg {
   color: var(--title-color);
   transition: color var(--transition-timing) var(--timing-function);
 }
-.nav-link:hover, .nav-link:focus {
+.header__link:hover, .header__link:focus {
   color: var(--hover-link-color);
 }
-.nav-link::after {
+.header__link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -147,10 +147,10 @@ svg {
   background-color: var(--background-color-button);
   transition: opacity var(--transition-timing) var(--timing-function);
 }
-.nav-link:hover::after, .nav-link:focus::after {
+.header__link:hover::after, .header__link:focus::after {
   opacity: 1;
 }
-.nav-link.current {
+.header__link.current {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -158,7 +158,7 @@ svg {
   letter-spacing: 0.02em;
   color: var(--hover-link-color);
 }
-.nav-link.current::after {
+.header__link.current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -172,7 +172,7 @@ svg {
 }
 
 /* Контакти в навігації */
-.contacts-nav {
+.contacts__navigation {
   margin: 0;
   padding: 0;
   display: flex;
@@ -180,7 +180,7 @@ svg {
   gap: 50px;
 }
 
-.contacts-link {
+.contacts__link {
   text-decoration: none;
   font-weight: 500;
   line-height: 1.14;
@@ -191,12 +191,12 @@ svg {
   white-space: nowrap;
   transition: color var(--transition-timing) var(--timing-function), fill var(--transition-timing) var(--timing-function);
 }
-.contacts-link:hover, .contacts-link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--hover-link-color);
   fill: var(--hover-link-color);
 }
 
-.icon-header {
+.header__icon {
   fill: currentColor;
   margin: 0 10px 0 0;
 }
