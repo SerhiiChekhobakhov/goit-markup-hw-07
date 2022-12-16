@@ -1,6 +1,6 @@
 /* Особливості */
 
-.peculiarities-list {
+.peculiarities__list {
   margin: 0;
   padding: 0;
 
@@ -8,7 +8,7 @@
   gap: 30px;
 }
 
-.peculiarities-item {
+.peculiarities__item {
   display: inline;
   &::before {
     display: block;
@@ -35,7 +35,7 @@
   }
 }
 
-.peculiarities-title {
+.peculiarities__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -45,7 +45,7 @@
   margin-bottom: 10px;
 }
 
-.peculiarities-text {
+.peculiarities__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;

@@ -699,17 +699,17 @@ svg {
 }
 
 /* Особливості */
-.peculiarities-list {
+.peculiarities__list {
   margin: 0;
   padding: 0;
   display: flex;
   gap: 30px;
 }
 
-.peculiarities-item {
+.peculiarities__item {
   display: inline;
 }
-.peculiarities-item::before {
+.peculiarities__item::before {
   display: block;
   content: "";
   height: 120px;
@@ -720,20 +720,20 @@ svg {
   margin-bottom: 30px;
   border-radius: 4px;
 }
-.peculiarities-item:nth-child(1)::before {
+.peculiarities__item:nth-child(1)::before {
   background-image: url(../images/antenna.svg);
 }
-.peculiarities-item:nth-child(2)::before {
+.peculiarities__item:nth-child(2)::before {
   background-image: url(../images/clock.svg);
 }
-.peculiarities-item:nth-child(3)::before {
+.peculiarities__item:nth-child(3)::before {
   background-image: url(../images/diagram.svg);
 }
-.peculiarities-item:nth-child(4)::before {
+.peculiarities__item:nth-child(4)::before {
   background-image: url(../images/astronaut.svg);
 }
 
-.peculiarities-title {
+.peculiarities__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -742,7 +742,7 @@ svg {
   margin-bottom: 10px;
 }
 
-.peculiarities-text {
+.peculiarities__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
