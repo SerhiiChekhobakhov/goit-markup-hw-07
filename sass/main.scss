@@ -1,5 +1,5 @@
 // Змінні та шрифти
-@import './utils/variables';
+@import './utils/vars';
 
 // Базові стилі, розмітка секцій, контейнери, тощо
 @import './components/base/reset';
@@ -22,7 +22,7 @@
 @import './components/peculiarities';
 @import './components/team';
 
-// Стилі Портфоліо
+// Компоненти Портфоліо
 @import './components/portfolio-filters';
 @import './components/portfolio-products';
 

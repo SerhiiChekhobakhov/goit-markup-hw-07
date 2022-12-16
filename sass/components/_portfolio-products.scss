@@ -36,12 +36,15 @@
   text-decoration: none;
   display: block;
   transition: box-shadow var(--transition-timing) var(--timing-function);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  &:hover .product-overlay,
+  &:focus .product-overlay {
+  transform: translateY(0);
 }
-
-.product-link:hover,
-.product-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .products {
@@ -73,10 +76,7 @@
   padding: 63px 24px;
 }
 
-.product-link:hover .product-overlay,
-.product-link:focus .product-overlay {
-  transform: translateY(0);
-}
+
 
 .product-overlay-text {
   margin: 0;

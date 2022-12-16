@@ -78,14 +78,13 @@
   fill: var(--icon-color);
   transition: background-color var(--transition-timing) var(--timing-function),
     fill var(--transition-timing) var(--timing-function);
-}
-
-.joinus-link:hover,
-.joinus-link:focus {
-  color: var(--team-card-color);
-  background-color: var(--hover-link-color);
-  border: none;
-  fill: var(--team-card-color);
+  &:hover,
+  &:focus {
+    color: var(--team-card-color);
+    background-color: var(--hover-link-color);
+    border: none;
+    fill: var(--team-card-color);
+  }
 }
 
 .joinus-icon {

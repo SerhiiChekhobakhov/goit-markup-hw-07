@@ -24,15 +24,13 @@
   color: var(--background-color);
 
   transition: border-color var(--transition-timing) var(--timing-function);
-}
-
-.input:focus {
-  outline: none;
-  border-color: var(--background-color-button);
-}
-
-.input::placeholder {
-  color: var(--placeholder-color);
+  &:focus {
+    outline: none;
+    border-color: var(--background-color-button);
+  }
+  &::placeholder {
+    color: var(--placeholder-color);
+  }
 }
 
 .subscribe-footer {

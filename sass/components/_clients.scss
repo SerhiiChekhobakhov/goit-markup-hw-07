@@ -19,10 +19,9 @@
   fill: var(--icon-color);
   transition: fill var(--transition-timing) var(--timing-function),
     border var(--transition-timing) var(--timing-function);
-}
-
-.client-link:hover,
-.client-link:focus {
-  fill: var(--hover-link-color);
-  border: var(--hover-link-color) solid 1px;
+  &:hover,
+  &:focus {
+    fill: var(--hover-link-color);
+    border: var(--hover-link-color) solid 1px;
+  }
 }
