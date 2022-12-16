@@ -2,6 +2,9 @@
 
 .section {
   padding: 94px 0;
+  &.activities {
+    padding-top: 0;
+  }
 }
 
 .section-title {
@@ -19,4 +22,9 @@
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
+  &.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 344px;
+  }
 }

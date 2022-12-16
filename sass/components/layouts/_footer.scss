@@ -3,11 +3,10 @@
 .footer {
   background-color: var(--background-color-footer);
   padding: 60px 0;
-}
-
-.footer > .container {
-  display: flex;
-  justify-content: space-between;
+  & > .container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /* Логотип у футері */
@@ -43,7 +42,6 @@
     margin: 0;
   }
 }
-
 
 /* Адреса у футері */
 
