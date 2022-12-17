@@ -67,7 +67,7 @@ svg {
 .section.section__activities {
   padding-top: 0;
 }
-.section-title {
+.section__title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -752,24 +752,24 @@ svg {
 }
 
 /* Команда */
-.our-team {
+.section__team {
   background-color: var(--section-block-grey);
 }
 
-.team-list {
+.team__list {
   margin: 0;
   padding: 0;
   display: flex;
   gap: 30px;
 }
 
-.team-card {
+.team__card {
   background: var(--team-card-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.employee-name {
+.team__employee {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -779,7 +779,7 @@ svg {
   margin-bottom: 10px;
 }
 
-.employee-position {
+.team__position {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -789,18 +789,18 @@ svg {
   padding: 0;
 }
 
-.container-teamcard {
+.team__teamcard {
   padding: 30px 0;
 }
 
-.join-employee {
+.joinus__employee {
   display: flex;
   justify-content: center;
   gap: 10px;
   padding: 0;
 }
 
-.joinus-list {
+.joinus__list {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -809,13 +809,13 @@ svg {
   margin: 0;
 }
 
-.joinus-item {
+.joinus__item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.joinus-link {
+.joinus__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -826,14 +826,14 @@ svg {
   fill: var(--icon-color);
   transition: background-color var(--transition-timing) var(--timing-function), fill var(--transition-timing) var(--timing-function);
 }
-.joinus-link:hover, .joinus-link:focus {
+.joinus__link:hover, .joinus__link:focus {
   color: var(--team-card-color);
   background-color: var(--hover-link-color);
   border: none;
   fill: var(--team-card-color);
 }
 
-.joinus-icon {
+.joinus__icon {
   width: 20px;
   height: 20px;
 }
