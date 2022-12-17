@@ -1,6 +1,6 @@
 /* Контакти у футері */
 
-.footer-contacts {
+.footer__contacts {
   font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -13,7 +13,7 @@
   }
 }
 
-.joinus-title {
+.joinus__title {
   margin: 0 0 20px;
   width: 116px;
   height: 16px;
@@ -25,7 +25,7 @@
   vertical-align: Top;
 }
 
-.joinus-link-footer {
+.footer__joinus {
   display: flex;
   justify-content: center;
   align-items: center;

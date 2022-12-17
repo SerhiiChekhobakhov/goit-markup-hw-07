@@ -11,7 +11,7 @@
 
 /* Логотип у футері */
 
-.footer-logo {
+.footer__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -26,12 +26,12 @@
 
 /* Адреса та контакти */
 
-.container-footer {
+.container__footer {
   display: flex;
   align-items: baseline;
 }
 
-.footer-list {
+.footer__list {
   margin-top: 20px;
   margin-bottom: 0;
   padding: 0;
@@ -45,7 +45,7 @@
 
 /* Адреса у футері */
 
-.footer-adress {
+.footer__adress {
   font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
