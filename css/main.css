@@ -47,7 +47,7 @@ svg {
 }
 
 /* Приховування елементів */
-.visually-hidden {
+.visually__hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -839,7 +839,7 @@ svg {
 }
 
 /* Портфоліо */
-.filters-list {
+.filters__list {
   margin: 0 0 50px;
   padding: 0;
   display: flex;
@@ -848,7 +848,7 @@ svg {
 }
 
 /* Кнопки портфоліо */
-.button-filters {
+.filters__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -865,14 +865,14 @@ svg {
   padding: 6px 22px;
   transition: color var(--transition-timing) var(--timing-function), background-color var(--transition-timing) var(--timing-function), box-shadow var(--transition-timing) var(--timing-function);
 }
-.button-filters:hover, .button-filters:focus {
+.filters__button:hover, .filters__button:focus {
   font-family: inherit;
   color: var(--button-text-color);
   background-color: var(--background-color-button);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.projects-list {
+.products__list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -881,12 +881,12 @@ svg {
 }
 
 /* Продукти */
-.products-card {
+.products__card {
   background-color: var(--background-color);
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.product-name {
+.products__name {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -895,7 +895,7 @@ svg {
   margin-bottom: 4px;
 }
 
-.product-text {
+.products__text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -904,19 +904,19 @@ svg {
   padding: 0;
 }
 
-.product-link {
+.products__link {
   text-decoration: none;
   display: block;
   transition: box-shadow var(--transition-timing) var(--timing-function);
 }
-.product-link:hover, .product-link:focus {
+.products__link:hover, .products__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.product-link:hover .product-overlay, .product-link:focus .product-overlay {
+.products__link:hover .products__overlay, .products__link:focus .products__overlay {
   transform: translateY(0);
 }
 
-.products {
+.products__info {
   margin: 0;
   padding: 20px 24px;
   border-top: none;
@@ -925,14 +925,14 @@ svg {
   border-right: 1px solid #eeeeee;
 }
 
-.product-overlay-thumb {
+.products__thumb {
   position: relative;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
 
-.product-overlay {
+.products__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -944,7 +944,7 @@ svg {
   padding: 63px 24px;
 }
 
-.product-overlay-text {
+.overlay__text {
   margin: 0;
   padding: 0;
   display: flex;
