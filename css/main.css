@@ -196,7 +196,7 @@ svg {
   fill: var(--hover-link-color);
 }
 
-.header__icon {
+.contacts__icon {
   fill: currentColor;
   margin: 0 10px 0 0;
 }
@@ -789,7 +789,7 @@ svg {
   padding: 0;
 }
 
-.team__teamcard {
+.team__thumb {
   padding: 30px 0;
 }
 
