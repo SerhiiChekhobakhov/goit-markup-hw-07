@@ -43,8 +43,8 @@
   }
   &:hover .products__overlay,
   &:focus .products__overlay {
-  transform: translateY(0);
-}
+    transform: translateY(0);
+  }
 }
 
 .products__info {
@@ -75,8 +75,6 @@
   transition: transform var(--transition-timing) var(--timing-function);
   padding: 63px 24px;
 }
-
-
 
 .overlay__text {
   margin: 0;
